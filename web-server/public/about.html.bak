@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+</head>
+
+<body>
+    <h1> from Static File</h1>
+    <img src="/images/photo-1438761681033-6461ffad8d80.jpeg" />
+</body>
+
+</html>

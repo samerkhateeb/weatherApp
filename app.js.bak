@@ -1,0 +1,50 @@
+import chalk from "chalk";
+// const chalk = require("chalk");
+import validator from "validator";
+
+import yargs from "yargs";
+
+import { hideBin } from "yargs/helpers";
+
+// import Logger from "logger";
+// yargs(process.argv).version("1.0.1.1");
+// console.log(yargs(process.argv).argv);
+
+const dd = yargs(process.argv);
+
+console.log(dd.version("1.2.3"));
+
+/******************************************* */
+
+// console.log(validator.isEmail("foo@bar.com"));
+// console.log(validator.isURL("http://"));
+// const error = chalk.bold.red.inverse;
+// const warning = chalk.hex("#FFA500"); // Orange color
+// const success = chalk.bold.green.inverse; // Orange color
+
+// var chalk = require("chalk");
+
+// const ff = Logger.check("idk");
+
+// const greenMsg = error("Hello world!");
+// console.log(greenMsg);
+
+// console.log(process.argv);
+// const command = process.argv[2];
+
+// if (command === "add") {
+//   console.log(success("adding node"));
+// } else {
+//   console.log(error("remove note"));
+// }
+
+/*********************************/
+// if (ff === "success") console.log(greenMsg);
+// else console.log(chalk.red("Hello world!"));
+
+// Logger.emit("messageLogged", { id: 1, url: "http://" });
+
+// const vvv = require("validator");
+// console.log(vvv.isURL("https://google.com"));
+// const log = require("./logger");
+// log("m m m mm m m m");
